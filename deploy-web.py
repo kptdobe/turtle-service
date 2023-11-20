@@ -31,4 +31,5 @@ def predict():
 def hello_world():
     return 'Hello, do you want to know where is your turtle?'
 
-app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
